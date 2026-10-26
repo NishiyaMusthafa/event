@@ -5,7 +5,7 @@ import axios from "axios";
 import { CalendarDays, MapPin, Users, Plus, Trash2, Pencil, LayoutDashboard } from "lucide-react";
 import "./App.css";
 
-const API = "http://localhost:5000/api/events";
+const API = "https://event-3jpp.onrender.com/api/events";
 
 function Dashboard() {
   const [events, setEvents] = useState([]);
